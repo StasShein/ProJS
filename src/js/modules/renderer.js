@@ -16,4 +16,13 @@ export class Renderer{
         
     }
     
+    append(el, className){
+        const parent = this.#innerDOM.querySelector(className) || this.#root
+
+        parent.appendChild(el)
+        this.#root.innerHTML = '';
+
+        this.render();
+
+    }
 }

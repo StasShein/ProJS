@@ -1,3 +1,4 @@
-body * {
-  outline: 1px solid lightgrey;
-}
+@import url(./partials/button/button.scss);
+
+@import url(./partials/display/display.scss);
+

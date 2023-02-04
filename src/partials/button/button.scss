@@ -1,0 +1,18 @@
+.button{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    background: none;
+    border-radius: 5px;
+    cursor:pointer;
+
+    &:active {
+        position: relative;
+        top: 1px;
+        left: 1px;
+    }
+}

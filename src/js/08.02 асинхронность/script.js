@@ -5,3 +5,10 @@ setInterval(() => {}, interval);//запускает бесконечный ци
 
 clearInterval(name||id)//останавливает интервал
 
+
+
+?? 
+resolve
+reject
+then
+catch

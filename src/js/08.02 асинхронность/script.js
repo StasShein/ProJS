@@ -10,5 +10,4 @@ clearInterval(name||id)//останавливает интервал
 ?? 
 resolve
 reject
-then
-catch
+//then catch
